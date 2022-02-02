@@ -11,7 +11,7 @@ function feetToInch(feet){
     return inche;
 }
 var inches = feetToInch(5);
-// console.log(inches , "inche");
+console.log(inches , "inche");
 
 //////////////////////////////////////////////////////////////////////////////
 
@@ -25,7 +25,7 @@ function centimeterToMeter(centimeters){
 }
 
 const meter = centimeterToMeter(5);
-// console.log(meter, " meter");
+console.log(meter, " meter");
 
 /////////////////////////////////////////////////////////////////////////////////////
 
@@ -57,7 +57,7 @@ function paperRequirments(firstBookCopy, secondBookCopy , thirthBookCopy){
     return sum;
 }
 var reuslt = paperRequirments(5,2,1);
-// console.log(reuslt , " Total Need page paper");
+console.log(reuslt , " Total Need page paper");
 
 /////////////////////////////////////////////////////////////////////////////////
 
