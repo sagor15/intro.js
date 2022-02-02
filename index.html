@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button onclick="myFunc() ">Try it</button>
+    <p id="test"></p>
+
+    <script>
+      function myFunc() {
+        var hour = new Date().getHours();
+        var text;
+        if (hour < 18) {
+          text = "good day";
+        } else {
+          text = "good evening";
+        }
+        document.getElementById("test").innerHTML = text;
+      }
+    </script>
+  </body>
+</html>
